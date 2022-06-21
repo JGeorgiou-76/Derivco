@@ -1,0 +1,145 @@
+{
+	"info": {
+		"_postman_id": "2e2ed295-07d6-4b69-ad71-7470cfaf7716",
+		"name": "Derivco",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1069145"
+	},
+	"item": [
+		{
+			"name": "Get All Bets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7001/api/bet",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7001",
+					"path": [
+						"api",
+						"bet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Bets for Roll ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7001/api/bets/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7001",
+					"path": [
+						"api",
+						"bets",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Previous Rolls",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7001/api/rolls",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7001",
+					"path": [
+						"api",
+						"rolls"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get a Previous Roll via ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7001/api/rolls/7",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7001",
+					"path": [
+						"api",
+						"rolls",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Place your Bet",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"username\": \"Joel\",\r\n\t\"password\": \"rd\"\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:7001/api/bet",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7001",
+					"path": [
+						"api",
+						"bet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create New Spin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7001/api/rolls/spin",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7001",
+					"path": [
+						"api",
+						"rolls",
+						"spin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Payout",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
