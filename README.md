@@ -11,13 +11,16 @@ Please find in the file named Derivco, a folder named scripts, this folder holds
 This script is used to create the Northwind database.
 
 Step 1:
-  Open SSMS. (Microsoft SQL Server Management Studio).
+Open SSMS. (Microsoft SQL Server Management Studio).
+
 Step 2:
-  Connect to the target SQL Server.
+Connect to the target SQL Server.
+
 Step 3:
-  Open the script (Northwind Database Creation Script) in a new query window.
+Open the script (Northwind Database Creation Script) in a new query window.
+
 Step 4:
-  Run the script.
+Run the script.
   
 My stored procedure is called Derivco Stored Procedure.
 
@@ -41,7 +44,7 @@ Please open Postman and import the collection to gain access to the API calls cr
 Using the API calls with Postman:
 
 Get All Bets:
-  This call will return a list of all the bets created.
+This call will return a list of all the bets created.
 
 Get All Bets for Roll ID:
   This call will return a list of all bets for a spacific Roll via the Roll ID, to change the Roll ID, you change the number at the end of the URL.
